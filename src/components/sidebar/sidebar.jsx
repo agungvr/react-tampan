@@ -5,6 +5,7 @@ import data from "../../data/nav.json";
 const logo = require("../../assets/images/logo.png");
 
 const navActive = "users";
+
 const SidebarTampan = () => {
   return (
     <Sidebar>
