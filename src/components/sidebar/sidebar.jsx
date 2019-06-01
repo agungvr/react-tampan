@@ -2,14 +2,13 @@ import React from "react";
 import Sidebar from "./module";
 import data from "../../data/nav.json";
 
+const logo = require("../../assets/images/logo.png");
+
 const navActive = "users";
 const SidebarTampan = () => {
   return (
     <Sidebar>
-      <Sidebar.Header
-        title="CRM APP"
-        imageUrl="http://pomona-newcms-stage.s3-website-ap-southeast-1.amazonaws.com/static/media/image/svg/pomona-blue-logo-only.svg"
-      />
+      <Sidebar.Header title="React Tampan" imageUrl={logo} />
       <Sidebar.Menu
         active={navActive}
         onClick={url => console.log("nav clicked", url)}

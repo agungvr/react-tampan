@@ -17,9 +17,9 @@ function Home() {
     <Wrapper>
       <Sidebar />
       <ContentContainer>
-        {/* <Suspense fallback={<MovieLoading />}>
+        <Suspense fallback={<MovieLoading />}>
           <MovieContainer />
-        </Suspense> */}
+        </Suspense>
       </ContentContainer>
     </Wrapper>
   );
