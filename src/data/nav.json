@@ -1,0 +1,157 @@
+{
+  "rows": [
+    {
+      "id": "nav-1",
+      "title": "Cashback Bank",
+      "url": null,
+      "menu": [
+        {
+          "id": "nav-1-sub-1",
+          "title": "Cashback Earned",
+          "url": "cashback"
+        },
+        {
+          "id": "nav-1-sub-2",
+          "title": "Cashout",
+          "url": "cashout"
+        },
+        {
+          "id": "nav-1-sub-3",
+          "title": "Pending Cashout",
+          "url": "pending"
+        }
+      ]
+    },
+    {
+      "id": "nav-2",
+      "title": "User",
+      "url": null,
+      "menu": [
+        {
+          "id": "nav-2-sub-1",
+          "title": "All User",
+          "url": "users"
+        },
+        {
+          "id": "nav-2-sub-2",
+          "title": "Rating",
+          "url": "rating"
+        },
+        {
+          "id": "nav-2-sub-3",
+          "title": "Survei",
+          "url": "survei"
+        }
+      ]
+    },
+    {
+      "id": "nav-3",
+      "title": "Campaign",
+      "url": null,
+      "menu": [
+        {
+          "id": "nav-3-sub-1",
+          "title": "Campaign",
+          "url": "campaign"
+        },
+        {
+          "id": "nav-3-sub-2",
+          "title": "Coupons",
+          "url": "coupons"
+        },
+        {
+          "id": "nav-3-sub-3",
+          "title": "Ads",
+          "url": "ads"
+        }
+      ]
+    },
+    {
+      "id": "nav-4",
+      "title": "Product",
+      "url": null,
+      "menu": [
+        {
+          "id": "nav-4-sub-1",
+          "title": "All Product",
+          "url": "products"
+        },
+        {
+          "id": "nav-4-sub-2",
+          "title": "Featured",
+          "url": "featured"
+        },
+        {
+          "id": "nav-4-sub-3",
+          "title": "Category",
+          "url": "category"
+        },
+        {
+          "id": "nav-4-sub-4",
+          "title": "Tags",
+          "url": "tags"
+        }
+      ]
+    },
+    {
+      "id": "nav-5",
+      "title": "Company",
+      "url": null,
+      "menu": [
+        {
+          "id": "nav-5-sub-1",
+          "title": "Group",
+          "url": "group"
+        },
+        {
+          "id": "nav-5-sub-2",
+          "title": "Brand",
+          "url": "brand"
+        },
+        {
+          "id": "nav-5-sub-3",
+          "title": "Retail",
+          "url": "retail"
+        }
+      ]
+    },
+    {
+      "id": "nav-6",
+      "title": "CMS",
+      "url": null,
+      "menu": [
+        {
+          "id": "nav-6-sub-1",
+          "title": "QR Code",
+          "url": "qrcode"
+        },
+        {
+          "id": "nav-6-sub-2",
+          "title": "About Pomona",
+          "url": "about-pomona"
+        },
+        {
+          "id": "nav-6-sub-3",
+          "title": "Content",
+          "url": "content"
+        },
+        {
+          "id": "nav-6-sub-4",
+          "title": "Collection",
+          "url": "collection"
+        },
+        {
+          "id": "nav-6-sub-5",
+          "title": "Pop Up",
+          "url": "popup"
+        }
+      ]
+    },
+    {
+      "id": "nav-7",
+      "title": "Log",
+      "url": "log",
+      "menu": []
+    }
+  ]
+}

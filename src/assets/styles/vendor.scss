@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Linotte-Regular;
+}
+
+@font-face {
+  font-family: "Linotte-Regular";
+  font-style: normal;
+  src: url("../fonts/Linotte-Regular.otf");
+  src: url("../fonts/Linotte-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Linotte-Semi-Bold";
+  font-style: normal;
+  src: url("../fonts/Linotte-Semi-Bold.otf");
+  src: url("../fonts/Linotte-Semi-Bold.otf") format("truetype");
+}
+
+span {
+  font-family: Linotte-Regular;
+}
