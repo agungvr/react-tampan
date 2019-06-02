@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import AppKernel from "./app";
 import Root from "./containers/root";
-import * as serviceWorker from "./serviceWorker";
+import * as serviceWorker from "./config/serviceWorker";
 import "./assets/styles/index.scss";
 import * as Sentry from "@sentry/browser";
 
