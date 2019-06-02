@@ -25,7 +25,7 @@
     "dev": "react-scripts start",
     "start": "serve -s build",
     "build": "env-cmd .env yarn run build:production",
-    "build:production": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build:production": "GENERATE_SOURCEMAP=false react-scripts build && cra-append-sw -s ./src/config/customServiceWorker.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js --ext .jsx .",
