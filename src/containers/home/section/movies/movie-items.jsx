@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Column } from "../../../../components/grid";
 
-const IMAGE_URL = process.env.REACT_APP_IMAGE_BASE_URL;
+// const IMAGE_URL = process.env.REACT_APP_IMAGE_BASE_URL;
 
 const MovieItem = memo(({ movie }) => {
   return (
@@ -13,8 +13,8 @@ const MovieItem = memo(({ movie }) => {
           alt={movie.title}
           height="100%"
           effect="blur"
-          // src="https://cdn.animenewsnetwork.com/thumbnails/max400x400/cms/news/128780/dx151twvmaasjod.jpg-large.jpeg"
-          src={`${IMAGE_URL}${movie.poster_path}`}
+          src="https://cdn.animenewsnetwork.com/thumbnails/max400x400/cms/news/128780/dx151twvmaasjod.jpg-large.jpeg"
+          // src={`${IMAGE_URL}${movie.poster_path}`}
           width="100%"
         />
       </div>
