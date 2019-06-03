@@ -1,11 +1,11 @@
 import { hocCreator, compose } from "./utils/hoc-wrapper";
 import { ClientContextProvider, Client } from "./api/clients";
-import Sidebar from "./components/sidebar";
+import Header from "./components/header";
 import { useSuspense } from "./utils/suspense";
 
 const clientProvider = hocCreator(ClientContextProvider, { client: Client });
 
-const suspense = useSuspense(Sidebar);
+const suspense = useSuspense(Header);
 
 const AppKernel = compose(
   clientProvider,

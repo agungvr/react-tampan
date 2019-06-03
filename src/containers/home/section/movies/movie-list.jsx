@@ -5,13 +5,11 @@ import MovieItem from "./movie-items";
 
 const MovieList = ({ movies }) => {
   return (
-    <div style={{ padding: 20 }}>
-      <Row>
-        {movies.results.map(movie => (
-          <MovieItem key={movie.id} movie={movie} />
-        ))}
-      </Row>
-    </div>
+    <Row>
+      {movies.results.map((movie, index) =>
+        index > 30 ? null : <MovieItem key={movie.id} movie={movie} />
+      )}
+    </Row>
   );
 };
 

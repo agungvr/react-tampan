@@ -61,12 +61,16 @@ const ButtonContainer = styled.button`
   background-color: ${colors.primary.base};
   margin: ${({ margin }) => margin || "0 .5em .5em 0"};
   padding: ${({ padding, loading }) =>
-    padding || loading ? ".4em 2.5em .4em" : ".78571429em 2.5em .78571429em"};
+    padding ||
+    (".78571429em 2.5em .78571429em" || loading
+      ? ".4em 2.5em .4em"
+      : ".78571429em 2.5em .78571429em")};
   color: ${({ color }) => color || "rgb(255, 255, 255)"};
   font-weight: ${({ fontWeight }) => fontWeight || "600"};
   border-radius: ${({ borderRadius }) => borderRadius || "3em"};
   cursor: pointer;
   display: inline-block;
+  border: 1px solid ${colors.primary.base} !important;
   position: relative;
   text-align: center;
   transform: translate3d(0px, 0px, 0px);

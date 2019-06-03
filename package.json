@@ -22,8 +22,8 @@
     "styled-components": "^4.2.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
     "start": "serve -s build",
+    "dev": "react-scripts start",
     "build": "env-cmd .env yarn run build:production",
     "build:production": "GENERATE_SOURCEMAP=false react-scripts build && cra-append-sw -s ./src/config/customServiceWorker.js",
     "test": "react-scripts test",

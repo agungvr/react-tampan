@@ -13,9 +13,11 @@ const MovieItem = memo(({ movie }) => {
           alt={movie.title}
           height="100%"
           effect="blur"
-          src="https://cdn.animenewsnetwork.com/thumbnails/max400x400/cms/news/128780/dx151twvmaasjod.jpg-large.jpeg"
-          // src={`${IMAGE_URL}${movie.poster_path}`}
+          // src="https://cdn.animenewsnetwork.com/thumbnails/max400x400/cms/news/128780/dx151twvmaasjod.jpg-large.jpeg"
+          src={`${IMAGE_URL}${movie.poster_path}`}
           width="100%"
+          wrapperClassName="bg-black"
+          style={{ opacity: 0.8, borderRadius: 7 }}
         />
       </div>
     </Column>
